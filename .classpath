@@ -22,5 +22,7 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/alvar_000/Desktop/TRABAJO/JAVA/gson-2.8.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alvar_000/Desktop/TRABAJO/JAVA/ojdbc6.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
