@@ -1,8 +1,17 @@
 package edu.femx.sshconect;
 
 public class PatologiasDTO {
-
+	
 	private int pato_id;
+	
+	
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return this.pato_id+". "+this.nom_Pato;
+	}
+	
+	
 	public PatologiasDTO(int pato_id, String nom_Pato, String descrip_pato, String trata_patologia, String causas) {
 		super();
 		this.pato_id = pato_id;
